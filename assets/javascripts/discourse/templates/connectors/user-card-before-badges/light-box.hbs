@@ -1,0 +1,20 @@
+<hr>
+{{#if user.storeName }}
+  <h2>{{user.storeName }}</h2>
+{{/if}}
+<div class="card-row">
+  {{#if user.custom.product_1 }}
+    <img src={{ user.custom.product_1.image}} width="24%">
+  {{/if}}
+  {{#if user.custom.product_2 }}
+    <img src={{ user.custom.product_2.image}} width="24%">
+  {{/if}}
+  {{#if user.custom.product_3 }}
+    <img src={{ user.custom.product_3.image}} width="24%">
+  {{/if}}
+  {{#if user.custom.product_4 }}
+    <img src={{ user.custom.product_4.image}} width="24%">
+  {{/if}}
+</div>
+
+
